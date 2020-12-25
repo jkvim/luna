@@ -4,7 +4,8 @@
     "target": "esnext",
     "jsx": "preserve",
     "strictFunctionTypes": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "typeRoots": ["./types"]
   },
   "exclude": [
     "node_modules",

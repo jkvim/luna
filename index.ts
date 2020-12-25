@@ -6,7 +6,7 @@ import {
   DOM,
   Element,
   Stateful,
-} from "./index.d";
+} from "./types/Luna";
 import { toKebabCase } from "./Util";
 
 function createElement(type: string, props: any, ...children: any): Element {

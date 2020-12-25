@@ -55,10 +55,12 @@ export interface Stateful {
 export type FilterFlag<Base, Condition> = {
   [Key in keyof Base]: Base[Key] extends Condition ? Key : never
 }
+
 export type AllowedNames<Base, Condition> = FilterFlag<Base, Condition>[keyof Base]
+
 export type SubType<Base, Condition> = Pick<Base, AllowedNames<Base, Condition>>
 
-declare interface Window {
-  requestIdleCallback: (callback: any) => void
-  Luna: any
+export type ComponentProps<Controller> = {
+  controller: Controller
+  [k: string]: any
 }

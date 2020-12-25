@@ -1,4 +1,4 @@
-import { AnyFunction, SubType } from "./index.d"
+import { AnyFunction, SubType } from "./types/Luna"
 import { Middelware, applyMiddlewares } from "./Middleware"
 
 type State = { [K: string]: any }
