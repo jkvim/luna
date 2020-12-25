@@ -25,10 +25,6 @@ export default App
 
 ### Controller
 ```tsx
-import { RootReducer, RootState } from "../configureStore";
-import { EnhancedStore } from "../luna/Store";
-import { GlobalContext } from "../types/Store";
-
 export class Controller {
   store: EnhancedStore<RootState, RootReducer>
 
