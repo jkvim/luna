@@ -6,6 +6,23 @@ but MVC and build-in redux like state management
 ** NOT FOR PRODUCTION **
 
 ## Example
+### App
+```tsx
+const context = createContext({
+  store,
+})
+
+function App() {
+  return (
+    <div className="App" context={context}>
+      <Layout />
+    </div>
+  )
+}
+
+export default App
+```
+
 ### Controller
 ```tsx
 import { RootReducer, RootState } from "../configureStore";
