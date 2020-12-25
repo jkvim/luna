@@ -3,7 +3,7 @@
 Base on [didact](https://github.com/pomber/didact), This is a react like framework, no hooks,
 but MVC and build-in redux like state management
 
-** NOT FOR PRODUCTION **
+# ** NOT FOR PRODUCTION **
 
 ## Example
 ### App
